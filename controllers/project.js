@@ -16,7 +16,7 @@ const { strict } = require('assert');
 const controller = {};
 
 // Ruta al archivo JSON
-const projectsFilePath = path.join(__dirname, '../data/projects.json');
+const projectsFilePath = path.join(__dirname, '../data/projects.Json');
 // const imagePath = path.join(__dirname, '..', 'uploads');
 
 
