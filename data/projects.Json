@@ -1,65 +1,29 @@
 [
   {
-    "name": "aaa",
-    "description": "aaa",
-    "category": "aaa",
+    "name": "Rapidfood (front y Back)",
+    "description": "Aplicacion para telefonos(frontend y backend). Rapidfood es una app para que el usuario que entre al link pueda elegir entre varios rubros de comida rapida y haga convinaciones para luego hacer el pedido. Las convinaciones se van almacenando en el carrito y a medida que esto sucede la app va dando el subtotal incluyendo el envio del mismo. Cuando el cliente acepte y envíe el pedido la app genera un mensaje de whatsapp que se envia al numero del rapidfood (configurado desde Administrador). El administrador ingresa por una contraseña escondida en Perfil. Cuando ingresa la contraeña correcta la app agrega un punto mas al menu que es para configurar la app. A su vez el administrador puede agregar productos nuevos, modioficar los que estan y borrarlos. Ubicacion de repositorios en github. Front:\"https://github.com/Marianoantar/Mac-food.git\". Back:\"https://github.com/Marianoantar/backend_rapid-food.git\" ",
+    "category": "Pedidos online",
     "year": 2024,
-    "langs": "aaa",
-    "image": "ensaldadefruta.jpg",
-    "id": 4747
+    "langs": "Angular 18, NestJS",
+    "image": "imagen_2024-10-12_200004977.png",
+    "id": 23342
   },
   {
-    "name": "bbbbbbbbsss",
-    "description": "bbb",
-    "category": "bbbb",
+    "name": "Portfolio (front y Back)",
+    "description": "Portfolio es una aplicacion que hice desde un curso de Angular y Node.js. Consta de un Frontend y un Backend. Lo que en un principio trabajaba con una base de datos la modifique para usar un archivo  .Json  para guardar la informacion de los proyectos que se van agregando. Haciendo click en el logo central (MT) se accede a un ingreso de codigo mediante el cual de accede al modo Edicion. El mismo permite entral al menu \"Crear Proyecto\" y a los botone de Editar y Borrar  dentro de Proyectos. Ubicacion en repositorios github. Front:\"https://github.com/Marianoantar/PortfolioVR-front-Json.git\". Back:\"https://github.com/Marianoantar/PortfolioVR-back-Json.git\"",
+    "category": "informacion",
     "year": 2024,
-    "langs": "bbbb",
-    "image": "pizza-cuatro-quesos.jpg",
-    "id": 13329
+    "langs": "Angular 18, Node.js",
+    "image": "portfolio2.jpg",
+    "id": 103263
   },
   {
-    "name": "ccc",
-    "description": "ccc",
-    "category": "ccc",
-    "year": 2024,
-    "langs": "ccc",
-    "image": "bombonsuizo.jpg",
-    "id": 26470
-  },
-  {
-    "name": "ddd",
-    "description": "dddddddd",
-    "category": "ddd",
-    "year": 2024,
-    "langs": "ddd",
-    "image": "hq720.jpg",
-    "id": 19358
-  },
-  {
-    "name": "Otra Pruebaaaa",
-    "description": "xxx Esta es otra ddescripcicon de la muestra para ver ocmo queda si entro un texto extenso pero muy extenso para que sature la pantalla",
-    "category": "xxx",
-    "year": 2024,
-    "langs": "xxx",
-    "image": "goolge.jpeg",
-    "id": 44997
-  },
-  {
-    "name": "xxx",
-    "description": "xxxx",
-    "category": "xxx",
-    "year": 2024,
-    "langs": "xxx",
-    "image": "sin-imagen.jpeg",
-    "id": 12003
-  },
-  {
-    "name": "zzzz",
-    "description": "zz",
-    "category": "zz",
-    "year": 2024,
-    "langs": "zz",
-    "image": "37815.jpg",
-    "id": 47233
+    "name": "Focus Weather",
+    "description": "Pequeña aplicacion que usa una api de clima mundial para dar informacion climatica sobre la ciudad que se ingrese.",
+    "category": "Clima",
+    "year": 2023,
+    "langs": "JavaScript",
+    "image": "imagen_2024-10-21_115647122.png",
+    "id": 22062
   }
 ]
