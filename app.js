@@ -7,24 +7,20 @@ app.use(express.json());
 
 const routes = require('./rutes/project'); // Ajusta la ruta según sea necesario
 
-// app.use('/api', routes);
-
 // CARGAR ARCHIVOS DE RUTAS
 const project_routes = require('./rutes/project');
 
 // MIDLEWARES
-
-
-
-// CORS
+//* CORS
 // Configurar cabeceras y cors
-app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Headers', 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method');
-    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
-    res.header('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
-    next();
-});
+const cors = require('cors');
+const allowedOrigins = ['https://storum.com.ar', 'http://localhost:4200'];
+
+app.use(cors({
+  origin: allowedOrigins,
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Authorization', 'X-API-KEY', 'Origin', 'X-Requested-With', 'Content-Type', 'Accept']
+}));
 
 
 
