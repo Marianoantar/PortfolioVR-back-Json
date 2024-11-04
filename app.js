@@ -14,7 +14,7 @@ const project_routes = require('./rutes/project');
 //* CORS
 // Configurar cabeceras y cors
 const cors = require('cors');
-const allowedOrigins = ['https://storum.com.ar', 'http://localhost:4200'];
+const allowedOrigins = ['https://portfolio.mantar.uno', 'http://localhost:4200'];
 
 app.use(cors({
   origin: allowedOrigins,
